@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import styled from 'styled-components'
 
 export default function CV5() {
+  const [data, setData] = useState(1)
   const Header = styled.div`
     width: 100%;
     height: 15%;

@@ -1,0 +1,115 @@
+.user_fullName {
+  font-size: 50px;
+  font-weight: 900;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
+
+.contact_header {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  padding: 5px 0px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  padding: 7px 0px;
+}
+
+.contact_icon {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.contact_text {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  /* white-space: nowrap;
+  overflow: hidden; */
+}
+
+.just_row {
+  height: 5px;
+  background-color: white;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.skills_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 20px;
+}
+
+.skills {
+  list-style-type: disc;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+  padding: 2px 0px;
+}
+
+.languages_row {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.letter {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #574e4c;
+}
+
+.just_row_black {
+  height: 5px;
+  background-color: #574e4c;
+  border-radius: 8px;
+}
+
+.experience_header {
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #574e4c;
+  padding: 5px 0px;
+}
+
+.experience_container {
+  padding: 8px 0px;
+}
+
+.experience_dates {
+  font-size: 15px;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #574e4c;
+  padding: 2px 0px;
+}
+
+.working_place {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #574e4c;
+  padding: 2px 0px;
+}
+
+.about_job {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #574e4c;
+  padding: 2px 0px;
+}

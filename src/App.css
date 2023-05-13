@@ -3,7 +3,6 @@
   height: 11in;
   margin: 20px auto;
   padding: 0;
-  border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
 }
@@ -38,7 +37,7 @@
 .body-container {
   width: 100%;
   height: 85%;
-  background-color: bisque;
+  background-color: white;
   display: flex;
 }
 
@@ -46,11 +45,12 @@
   width: 35%;
   height: 100%;
   padding: 20px;
+  background-color: #88817e;
+  padding-right: 0px;
 }
 
 .right-container {
   width: 65%;
   height: 100%;
   padding: 20px;
-  border-left: 1px solid lightgray;
 }
